@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.div1{
+  /* w-[100vw] h-[100vh] flex justify-center items-center bg-[#344151] flex-col gap-10 */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #344151;
+  flex-direction: column;
+  gap: 10;
+}
+.div2{
+  color: #0398d4;
+  font-weight: 500; 
+  font-size: 2rem;
+}
+.div3{
+  font-size: 25px;
+  color: #344151;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 0.25rem;
+}
+.counter{
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 5rem;
+  font-weight: bold;
+}
+.decrease {
+  border-right: 2px solid #bfbfbf;
+  text-align: center;
+  width: 20px;
+  border-radius: 0;
+  font-size: 5rem;
+}
+
+.increase {
+  border-left: 2px solid #bfbfbf;
+  text-align: center;
+  width: 20px;
+  border-radius: 0;
+  font-size: 5rem;
+}
+
+.click {
+  background-color: #0398d4;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  text-transform: capitalize;
+}
+
